@@ -1,0 +1,26 @@
+#Heading{
+	font-family: 'Lato', sans-serif;
+	color:#C60021;
+}
+
+#body
+{
+	font-family: 'Roboto Mono', monospace;
+}
+
+body
+{
+	background-color:#E3E3E3;
+}
+
+#Photos
+{
+	display:grid;
+	grid-template-columns: 60% 60%;
+	grid-template-rows:50% 50%;
+	border-top: 3px solid #bbb;
+	padding-top: 10px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+

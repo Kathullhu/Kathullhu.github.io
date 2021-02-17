@@ -1,0 +1,70 @@
+body{
+	background-color:#DCE1E3;
+}
+
+#start
+{
+	background-color:#EC5409;
+}
+#title{
+	font-family: 'Noto Sans JP', sans-serif;
+	color:#FFFFFF;
+	background-color:#EC5409;
+	margin-bottom: 10px;
+
+
+}
+
+#intro
+{
+	font-family: 'Roboto', sans-serif;
+	background-color:#EC5409;
+	color:#FFFFFF;
+	margin-bottom:50px;
+
+}
+
+#Sections
+{
+	color:#EC5409;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 25% 25% 25% 25%;
+font-family: 'Noto Sans JP', sans-serif;
+}
+
+#photo1
+{
+	border: 5px solid #EC5409 ;
+	 padding-right:0;
+	 border
+
+}
+
+#photo2
+{
+	border: 5px solid #EC5409 ;
+	 padding-right: :10px;
+	 border
+
+}
+
+
+#photo3
+{
+	border: 5px solid #EC5409 ;
+	 padding-right:0;
+	 border
+
+}
+
+
+#photo4
+{
+	border: 5px solid #EC5409 ;
+	 padding-right:0;
+	 border
+
+}
+
+

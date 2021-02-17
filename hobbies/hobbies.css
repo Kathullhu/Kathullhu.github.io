@@ -1,0 +1,28 @@
+
+body
+{
+	background-color:#55BCC9;
+	font-family: 'Oxygen', sans-serif;
+	color:#ff8165;
+}
+
+
+#part2
+{
+	background-color:#FC4445;
+	color:#ffffff;
+}
+
+#photo
+{
+	display: grid;
+	grid-template-rows: 10%
+}
+
+#photo2
+{
+	display: grid;
+	grid-template-rows: 10%
+}
+
+
