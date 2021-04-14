@@ -9,20 +9,20 @@
 <div id = "title">
 	<head>
 	<title>The David Exhibit</title>
-	<h1>The David Exhibit</h1>
-	<audio controls autoplay>
-  <source src="Intro.ogg" type="audio/ogg">
-  <source src="Intro.mp3" type="audio/mpeg">
-</audio>
+	<h1 id  = "header">The David Exhibit</h1>
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<script  src = "dom.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+
 	</head>
 </div>
 
 <body>
 <div id = "intro">
-	<h1>Purpose</h1>
+	<h1 id = "heading1">
+		
+	</h1>
 	<h4>This is a grand archive holding informaiton about  David Dickson. It will cover his likes, interests, who he is, goals, etc. To find differenet secitons of the exhibit, scroll below and click on wall of the links that lead to different secitons. 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -32,30 +32,30 @@
 <div id = "Photo">
 	<img id = "longphoto" src="mainphoto.jpg" height="50%" width="50%">
 </div>
-<div id = "Sections">
+<div id = "Sections" class = "photo-items">
 
-	<div id = "Section1">
+	<div id = "Section1" class = "photo-items">
 	<h2><a <a href="AboutMe/AboutMe.html">About Me</a></h2>
 	<div id = "photo1">
 	<img src="aboutme.jpg" length = 100% width =100% >
 	</div>
 </div>
 
-	<div id = "Section2">
+	<div id = "Section2" class = "photo-items">
 	<h2>  <a href="hobbies\Hobbies.html">Hobbies/Interests</a> </h2>
 		<div id = "photo2">
 	<img src="hobie.jpg" length = 100% width =100%>
 </div>
 </div>
 
-	<div id = "Section3">
+	<div id = "Section3" class = "photo-items">
 	<h2> <a href="goals\Goals.html"> Goals</a> </h2>
 		<div id = "photo3">
 	<img src="goall.png" length = 100% width =100%>
 </div>
 </div>
 
-	<div id = "Section4">
+	<div id = "Section4" class = "photo-items">
 	<h2> <a href="misc/Miscellaneous.html">Miscellaneous</a>  </h2>
 		<div id = "photo4">
 	<img src="download.png" length = 100% width =100%>
@@ -63,6 +63,54 @@
 
 </div>
 </div>
+
+
+
+/<p id = "paragraph">This is a paragraph that leads to the ultimate power of the <button>Button...</button> when you right-click it...</p>
+
+<script>
+	
+
+	let par = document.getElementById("paragraph");
+	let button = document.querySelector("button");
+
+	par.addEventListener ("mousedown", () => 
+	{
+		console.log("paragraph has been clicked");
+	});
+
+	button.addEventListener ("mousedown",event => 
+	{
+		console.log("button has been clicked");
+	if (event.button == 2)
+
+	var y = document.createTextNode(" This just got added");
+		{par.appendChild(y);}
+	});
+</script>
+
+<p>If you press "V" the key the backgrund turns purple, if you press "B" it returns to normal</p>
+
+<script>
+	window.addEventListener("keydown", event =>
+	{
+		if (event.key == "v") {
+			document.body.style.background = "purple"
+		}
+	});
+window.addEventListener("keydown", event =>
+{
+	if (event.key == "b") { 
+		document.body.style.background = "blue"}
+});
+
+window.addEventListener("keydown", event =>
+{
+	if (event.key == "n") { 
+		document.body.style.background = ""}
+});
+
+</script>
 
 
 </body>
